@@ -1,0 +1,62 @@
+body{
+	overflow-y: scroll;
+	background-color: #bdc3c7;
+}
+
+div{
+}
+		
+.fixedDiv{
+	left: 0px;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+}
+
+#banner{
+	top: 0px;
+	background-color: gray;
+	z-index: 999;
+	text-align: center;
+	color: white;
+}
+
+#midDiv{
+	width:100%;
+	height: 60%;
+	left: 0px;
+	position: absolute;
+	
+	z-index: 99;
+	text-align: center;
+}
+
+.centerDiv{
+	width:50%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+			
+}
+
+#imageDiv{
+	height: 100%;
+	margin-top: 5%;
+}
+
+#textDiv{
+	margin-bottom: 5%;
+}
+
+#footer{
+	bottom: 0px;
+	background-color: gray;
+	z-index: 999;
+	text-align: center;
+	color: white;
+}
+
+#image{
+	width:100%;
+	height: 100%;
+}
